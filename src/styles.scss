@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.loading-mask-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+  border: 1px solid !important;
+}
+.container-spinner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: absolute;
+  left: 46%;
+  top: 45%;
+}
