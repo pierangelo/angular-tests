@@ -4,7 +4,7 @@ import {HttpClient} from "@angular/common/http";
 import {BehaviorSubject} from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'any'
 })
 export class Page1StateDataService {
 

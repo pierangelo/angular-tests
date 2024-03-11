@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {PagesModule} from './pages/pages.module';
@@ -27,4 +26,6 @@ import {AppSpinnerComponent} from './shared/components/app-spinner/app-spinner.c
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() { }
+}
